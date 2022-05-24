@@ -1,0 +1,197 @@
+.home{
+  background-image: url('');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.home h1{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-top: 90px;
+}
+.home h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.home button{
+  outline: none;
+  border: 2px solid rgb(51, 161, 134);
+background-color: rgb(26, 201, 157);
+border-radius: 5px;
+color: white;
+}
+.icons :hover{
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 100%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(216, 36, 12);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.main-image {
+    width: 1000px;
+    height: 1500px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.btn btn-primary{
+    background-color:black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #808080;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.Menu{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.meal h3 {
+        margin: 0 0 0.25rem 0;
+}
+.price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+}
+.cart{
+    text-align: right;
+}
+.cartbag{
+    text-align:right;
+}
+.cart-container {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.navbar {
+    width: 100%;
+    background-color: white;
+}
+.bar{
+    display:inline;
+    text-align:right;
+}
+.incbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(241, 71, 71);
+    border: 1px solid #a8cbf3;
+    color: white;
+    width:30px;
+   
+    font-weight: bold;
+}
+.incbtn:hover,
+.incbtn:active {
+    background-color: #756c69;
+    border-color: #756c69;
+}
+
+.decbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(241, 71, 71);
+    border: 1px solid #c5dbf8;
+    color: white;
+    width:30px;
+    font-weight: bold;
+}
+.decbtn:hover,
+.decbtn:active {
+    background-color: #756c69;
+    border-color: #6b625e;
+}
+
+.qtyinput{
+    width:20px;
+}
+.cartbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color:rgb(241, 71, 71);
+    border: 1px solid rgb(241, 71, 71);
+    color: white;
+    width: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.cartbtn:hover,
+.cartbtn:active {
+        background-color: gray;
+        border-color: gray;
+}
+.order {
+    font: inherit;
+    cursor: pointer;
+    background-color: #f44336;
+    border: 2px solid #f44336;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.ordernow {
+    font: inherit;
+    cursor: pointer;
+    background-color: #f44336;
+    border: 2px solid #f44336;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.Menu{
+    background-color:white;
+    
+}
+.footer{
+    background-color:rgb(216, 36, 12);
+    color: white;
+}
+.Villa{
+    border: 2px solid black;
+}
